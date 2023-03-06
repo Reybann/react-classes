@@ -1,11 +1,11 @@
 import React from 'react';
 import './firstClass.css'
 
-interface FirstHookState {
+interface FirstClassState {
   count: number;
 }
 
-class FirstHook extends React.Component<{}, FirstHookState> {
+class FirstClass extends React.Component<{}, FirstClassState> {
   constructor(props: {}) {
     super(props);
     this.state = {
@@ -35,4 +35,4 @@ class FirstHook extends React.Component<{}, FirstHookState> {
   }
 }
 
-export default FirstHook;
+export default FirstClass;

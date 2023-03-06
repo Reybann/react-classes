@@ -1,7 +1,7 @@
 import React, { RefObject } from 'react';
 import './sixthClass.css';
 
-class SixthHook extends React.Component {
+class SixthClass extends React.Component {
   inputRef: RefObject<HTMLInputElement>;
 
   constructor(props: {}) {
@@ -28,4 +28,4 @@ class SixthHook extends React.Component {
   }
 }
 
-export default SixthHook;
+export default SixthClass;
